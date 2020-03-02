@@ -1,12 +1,12 @@
 @font-face {
     font-family: open-sans-bold;
-    src: url(C:/mq-diplom/fonts/OpenSans-Bold.woff);
+    src: url(https://github.com/shapovalova-maria/mq-diplom/fonts/OpenSans-Bold.woff);
     font-weight: 700;
     font-style: bold;
   }
   @font-face {
     font-family: open-sans-regular;
-    src: url(C:/mq-diplom/fonts/OpenSans-Regular.woff);
+    src: url(https://github.com/shapovalova-maria/mq-diplom/fonts/OpenSans-Regular.woff);
     font-weight: 400;
     font-style: normal;
   }
@@ -16,7 +16,7 @@
     border: 0;
   }
 .header {
-    background-image: url(C:/mq-diplom/images/football_767.jpg);
+    background-image: url(https://github.com/shapovalova-maria/mq-diplom/images/football_767.jpg);
     background-repeat: no-repeat;
     background-size: 142% 115%;
     background-color: #bc4f30;
@@ -136,16 +136,16 @@ button:hover {
 
 /* -------------------------main---------------------------- */
 .athlet {
-  min-height: 306px;
+  min-height: 36.79vh; /*209px;*/
   background-color: #ffffff;
 
   position: relative;
 }
 
 .athlet::after{
-  content: url(C:/mq-diplom/images/footballer_192.png);
+  content: url(https://github.com/shapovalova-maria/mq-diplom/images/footballer_192.png);
   position: absolute;
-  top: 85px;
+  top: 85px; 
   left: 70px;
 }
 
@@ -255,7 +255,7 @@ p {
 }
 
 .player::after{
-  content: url(C:/mq-diplom/images/basketballer_302.png);
+  content: url(https://github.com/shapovalova-maria/mq-diplom/images/basketballer_302.png);
   position: absolute;
   top: 91px;
   left: 10px;
@@ -323,19 +323,10 @@ p {
   letter-spacing: 1px;
   line-height: 20px;
 }
-/* .number_section::after {
-  content: "";
-  position: absolute;
-  width: 70px;
-  height: 70px;
-  background-color: #5e42b0;
-  top: -59px;
-  left: 20px;
-} */
 
 /* --------------------footer-------------------------------- */
 .footer {
-  background-image: url(C:/mq-diplom/images/game_767.jpg);
+  background-image: url(https://github.com/shapovalova-maria/mq-diplom/images/game_767.jpg);
   background-repeat: no-repeat;
   background-size: 130% 100%;
   background-color: #bc4f30;

@@ -1,12 +1,12 @@
 @font-face {
     font-family: open-sans-bold;
-    src: url(https://github.com/shapovalova-maria/mq-diplom/fonts/OpenSans-Bold.woff);
+    src: url(https://github.com/shapovalova-maria/mq-diplom/tree/master/fonts/OpenSans-Bold.woff);
     font-weight: 700;
     font-style: bold;
   }
   @font-face {
     font-family: open-sans-regular;
-    src: url(https://github.com/shapovalova-maria/mq-diplom/fonts/OpenSans-Regular.woff);
+    src: url(https://github.com/shapovalova-maria/mq-diplom/tree/master/fonts/OpenSans-Regular.woff);
     font-weight: 400;
     font-style: normal;
   }
@@ -16,7 +16,7 @@
     border: 0;
   }
 .header {
-    background-image: url(https://github.com/shapovalova-maria/mq-diplom/images/football_767.jpg);
+    background-image: url(https://github.com/shapovalova-maria/mq-diplom/tree/master/images/football_767.jpg);
     background-repeat: no-repeat;
     background-size: 142% 115%;
     background-color: #bc4f30;
@@ -52,9 +52,10 @@
 
 .container,
 .buttons{
-  width: 87.5%; /*280px;*/
+  min-width: 87.5%; /*280px;*/
   box-sizing: border-box;
-  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 5.81vh;/*33px;*/
   padding-bottom: calc(15.5vh - 14px); /*88px;*/
 }
@@ -136,14 +137,14 @@ button:hover {
 
 /* -------------------------main---------------------------- */
 .athlet {
-  min-height: 36.79vh; /*209px;*/
+  min-height: 49.47vh; /*281px;*/
   background-color: #ffffff;
 
   position: relative;
 }
 
 .athlet::after{
-  content: url(https://github.com/shapovalova-maria/mq-diplom/images/footballer_192.png);
+  content: url(https://github.com/shapovalova-maria/mq-diplom/tree/master/images/footballer_192.png);
   position: absolute;
   top: 85px; 
   left: 70px;
@@ -248,14 +249,14 @@ p {
 }
 
 .player {
-  min-height: 303px;
+  min-height: 49.47vh; /*281px*/
   background-color: #ffffff;
 
   position: relative;
 }
 
 .player::after{
-  content: url(https://github.com/shapovalova-maria/mq-diplom/images/basketballer_302.png);
+  content: url(https://github.com/shapovalova-maria/mq-diplom/tree/master/images/basketballer_302.png);
   position: absolute;
   top: 91px;
   left: 10px;
@@ -299,6 +300,7 @@ p {
 
 .number_section::after {
   background-color: #8f7bc8;
+  width: 16px;
   left: 28px;
   top: 42px;
 }
@@ -326,7 +328,7 @@ p {
 
 /* --------------------footer-------------------------------- */
 .footer {
-  background-image: url(https://github.com/shapovalova-maria/mq-diplom/images/game_767.jpg);
+  background-image: url(https://github.com/shapovalova-maria/mq-diplom/tree/master/images/game_767.jpg);
   background-repeat: no-repeat;
   background-size: 130% 100%;
   background-color: #bc4f30;

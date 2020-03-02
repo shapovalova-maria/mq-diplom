@@ -1,0 +1,72 @@
+@font-face {
+    font-family: open-sans-bold;
+    src: url(fonts/OpenSans-Bold.woff2);
+    font-weight: 700;
+    font-style: bold;
+  }
+  @font-face {
+    font-family: open-sans-regular;
+    src: url(fonts/OpenSans-Regular.woff2);
+    font-weight: 400;
+    font-style: normal;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+.header {
+    background-image: url(images\football_767.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #bc4f30;
+  
+    position: relative;
+    /* min-height: 100vh; */
+    
+    margin: 0 auto;
+   
+}
+  .header::after {
+    content: "";
+    position: absolute;
+    background-color: #161332;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.9;
+  }
+  .container,
+.top_buttons {
+  position: relative;
+  z-index: 1;
+  fill: #ffffff;
+}
+
+.container {
+  margin: 0 auto;
+  padding-top: 33px;
+}
+
+.logo_icon {
+  width: 134px;
+  height: 36px;
+  margin: 0 auto;
+  /* position: absolute; */
+  /* top: 33px; */
+  /* left: calc(50% -18px); */
+}
+.top_text {
+font-size: 21px;
+letter-spacing: 1px;
+line-height: 31px;
+font-family: "open-sans-bold";
+color: #ffffff;
+text-align: center;
+text-transform: uppercase;
+margin: 0 auto;
+}
+.top_buttons {
+  
+}

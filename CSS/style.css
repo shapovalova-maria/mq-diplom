@@ -98,6 +98,11 @@
   margin-top: 2.46vh; /*14px;*/
 }
 
+button:hover {
+  background-color: #5535b1;
+  cursor: pointer;
+}
+
 .apple_icon,
 .google_icon {
   position: absolute;

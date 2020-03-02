@@ -1,12 +1,12 @@
 @font-face {
     font-family: open-sans-bold;
-    src: url(https://github.com/shapovalova-maria/mq-diplom/tree/master/fonts/OpenSans-Bold.woff);
+    src: url(C:/mq-diplom/fonts/OpenSans-Bold.woff);
     font-weight: 700;
     font-style: bold;
   }
   @font-face {
     font-family: open-sans-regular;
-    src: url(https://github.com/shapovalova-maria/mq-diplom/tree/master/fonts/OpenSans-Regular.woff);
+    src: url(C:/mq-diplom/fonts/OpenSans-Regular.woff);
     font-weight: 400;
     font-style: normal;
   }
@@ -16,7 +16,7 @@
     border: 0;
   }
 .header {
-    background-image: url(https://github.com/shapovalova-maria/mq-diplom/tree/master/images/football_767.jpg);
+    background-image: url(C:/mq-diplom/images/football_767.jpg);
     background-repeat: no-repeat;
     background-size: 142% 115%;
     background-color: #bc4f30;
@@ -52,10 +52,10 @@
 
 .container,
 .buttons{
-  min-width: 87.5%; /*280px;*/
   box-sizing: border-box;
-  padding-left: 20px;
-  padding-right: 20px;
+  min-width: 87.5%; /*280px;*/
+  padding-left: 3.52vh; /*20px;*/
+  padding-right: 3.52vh;/*20px;*/
   padding-top: 5.81vh;/*33px;*/
   padding-bottom: calc(15.5vh - 14px); /*88px;*/
 }
@@ -144,7 +144,7 @@ button:hover {
 }
 
 .athlet::after{
-  content: url(https://github.com/shapovalova-maria/mq-diplom/tree/master/images/footballer_192.png);
+  content: url(C:/mq-diplom/images/footballer_192.png);
   position: absolute;
   top: 85px; 
   left: 70px;
@@ -256,7 +256,7 @@ p {
 }
 
 .player::after{
-  content: url(https://github.com/shapovalova-maria/mq-diplom/tree/master/images/basketballer_302.png);
+  content: url(C:/mq-diplom/images/basketballer_302.png);
   position: absolute;
   top: 91px;
   left: 10px;
@@ -328,7 +328,7 @@ p {
 
 /* --------------------footer-------------------------------- */
 .footer {
-  background-image: url(https://github.com/shapovalova-maria/mq-diplom/tree/master/images/game_767.jpg);
+  background-image: url(C:/mq-diplom/images/game_767.jpg);
   background-repeat: no-repeat;
   background-size: 130% 100%;
   background-color: #bc4f30;

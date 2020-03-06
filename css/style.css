@@ -31,7 +31,7 @@
     margin: 0 auto;
 }
   .header::after,
-  footer::after{
+  .footer::after{
     content: "";
     position: absolute;
     background-color: #090c35;

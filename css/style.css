@@ -31,8 +31,8 @@ body {
   
   position: relative;
   box-sizing: border-box;     
-  max-width: 100vw;
-  max-height: 100vh;
+  min-width: 100vw;
+  min-height: 100vh;
 }
 
 .header::after,
@@ -430,9 +430,9 @@ margin-bottom: 27vh;
   }
 
   .top_text {
-  font-size: 80px;
-  letter-spacing: 5px;
-  line-height: 80px;
+    font-size: 80px;
+    letter-spacing: 5px;
+    line-height: 80px;
 }
 .top_text:nth-child(2) {
   line-height: 95px;

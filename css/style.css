@@ -73,7 +73,7 @@ body {
 }
 .container_title {
   width: 81%;
-  padding-top: 13%;
+  padding-top: 12%;
   padding-bottom: 10%;
 
   margin: 0 auto;
@@ -627,6 +627,7 @@ margin-bottom: 27vh;
 
   .header {
     background-image: url(../images/football_767.jpg);
+    background-size: auto 110%;
   }
 
   .container {
@@ -648,18 +649,18 @@ margin-bottom: 27vh;
     width: 100%;
     padding: 0;
     left: 0;
-    top: calc(50% - 46px);
+    top: 30%;
   }
   .top_text {
     font-size: 28px;
     letter-spacing: 1px;
-    line-height: 31px;
+    line-height: 68px;
   
   }
   
   .top_text:nth-child(2) {
-    padding-left: 44px;
     line-height: 31px;
+    padding-left: 15.7%;
   }
   
   .buttons {
@@ -817,6 +818,7 @@ margin-bottom: 27vh;
   .footer {
     background-image: url(../images/game_767.jpg);
     height: 100vh;
+    background-position: right;
   }
   
   .footer .container {

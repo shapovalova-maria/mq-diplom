@@ -95,7 +95,7 @@ body {
 
   font-size: 90px;
   font-weight: 700;
-  letter-spacing: 5px;
+  letter-spacing: 4px;
   line-height: 1;
   color: #ffffff;
   text-transform: uppercase;
@@ -397,7 +397,7 @@ body {
 }
 
 .footer .container {
-  padding: 23vh 9% 11.45vh 9%;
+  padding: 23vh 9% 3.149vh 9%;
 }
 
 .footer_container {

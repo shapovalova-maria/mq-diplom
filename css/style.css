@@ -80,10 +80,10 @@ body {
 
 .container_title {
 
-  margin: 0 auto;
+  /* margin: 0 auto; */
   margin-left: 180px;
   margin-right: 180px;
- 
+  margin-top: 30px;
   padding-left: 11px;
   padding-right: 15px;
 }
@@ -320,7 +320,7 @@ margin: 0 180px;
 }
 
 .image {
-  /* width: calc(100% - 180px); */
+  width: calc(100% - 180px);
   height: 100%;
   background-color: #de5f53;
   background-position: center;
@@ -336,8 +336,8 @@ margin: 0 180px;
 }
 
 .number_section {
-  width: 168px;
-  height: 168px;
+  width: 167px;
+  height: 155px;
   background-color: #5e42b0;
   font-size: 24px;
   letter-spacing: 1px;
@@ -422,7 +422,7 @@ margin: 0 180px;
   display: block;
   font-size: 80px;
   font-weight: 700;
-  /* letter-spacing: 4px; */
+  letter-spacing: 1px;
   line-height: 0.75;
   color: #ffffff;
   text-transform: uppercase;
@@ -477,14 +477,17 @@ margin: 0 180px;
     font-size: 75px;
     padding-bottom: 90px;
     letter-spacing: 3px;
-
   }
 
   .image {
-    /* width: 730px; */
+    width: 100%;
     margin-left: 0;
     margin-right: 0;
   } 
+
+  .sections:nth-child(even) .image {
+  margin-right: 0; 
+ }
 }
 
 @media (min-width: 1280px) and (max-width: 1559px) {

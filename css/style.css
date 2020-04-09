@@ -21,6 +21,7 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
+  
 }
  
 .header, .footer {
@@ -30,7 +31,7 @@ body {
   background-color: #bc4f30;
   background-position: center;
   
-  position: relative;    
+  position: relative;   
   min-height: 100vh;
 }
 
@@ -62,7 +63,7 @@ body {
   justify-content: space-between;
   
   /* width: 100%; */
-  max-width: 1920px;
+  
   min-height: 100vh;
   padding-top: 5vh;
   padding-bottom: 11.45vh;
@@ -74,7 +75,7 @@ body {
 .footer_logo {
   width: 191px; 
   margin: 0 auto;
-  margin-bottom: 72px;
+  margin-bottom: 23px;
 }
 
 .container_title {
@@ -319,7 +320,7 @@ margin: 0 180px;
 }
 
 .image {
-  width: calc(100% - 180px);
+  /* width: calc(100% - 180px); */
   height: 100%;
   background-color: #de5f53;
   background-position: center;
@@ -340,10 +341,10 @@ margin: 0 180px;
   background-color: #5e42b0;
   font-size: 24px;
   letter-spacing: 1px;
-  line-height: 7;
+  line-height: 6;
   color: #ffffff;
   text-align: center;
-  margin-left: -84px;
+  margin-left: -80px;
   margin-top: 211px;
   margin-right: 0;
 }
@@ -361,10 +362,10 @@ margin: 0 180px;
 }
 
 .section {
-  width: calc(50% - 85px);
-  padding-left: 33px;
+  width: calc(50% - 90px);
+  padding-left: 45px;
   padding-right: 182px;
-  padding-top: 240px; 
+  padding-top: 245px; 
   padding-bottom: 32px;
 }
 
@@ -405,6 +406,7 @@ margin: 0 180px;
   justify-content: center;
   align-items: center;
   margin-bottom: 10vh;
+  margin-top: 10px;
 }
 
 .logo_footer {
@@ -420,7 +422,7 @@ margin: 0 180px;
   display: block;
   font-size: 80px;
   font-weight: 700;
-  letter-spacing: 4px;
+  /* letter-spacing: 4px; */
   line-height: 0.75;
   color: #ffffff;
   text-transform: uppercase;
@@ -434,6 +436,11 @@ margin: 0 180px;
   padding-top: 21px;
 }
 
+.footer_text {
+  /* margin-right: 20px; */
+  letter-spacing: 4px;
+}
+
 .footer_bottom {
   display: flex;
   flex-wrap: wrap;
@@ -443,7 +450,7 @@ margin: 0 180px;
 }
 
 .footer .buttons {
-margin-bottom: 10vh;
+  margin-bottom: 260px;
 }
 
 .footer_logo {
@@ -461,14 +468,16 @@ margin-bottom: 10vh;
     /* left: 800px; */
   }
 
-  .number_section {
+  /* .number_section {
     width: 145px;
-    height: 145px;
-    font-size: 21px;
-  } 
+    height: 145px; 
+    font-size: 21px; 
+  }*/
   .headline {
-    font-size: 63px;
-    padding-bottom: 75px;
+    font-size: 75px;
+    padding-bottom: 90px;
+    letter-spacing: 3px;
+
   }
 
   .image {

@@ -729,8 +729,8 @@ margin: 0 180px;
    .block_athlets::after{
     content: url(../images/footballer_497.png);
 
-    top: 110px; 
-    left: -20%;
+    top: 94px; 
+    left: -22%;
   }
    
   .heading_block, .headline {
@@ -769,7 +769,7 @@ margin: 0 180px;
   }
   
   .block_players .content-section {
-    padding: 32px 46% 36px 4.3%;
+    padding: 32px 46% 21px 4.3%;
     
   }
 
@@ -818,8 +818,8 @@ margin: 0 180px;
   .headline {
     font-size: 80px;
     padding-left: 0;
-    padding-top: 55px;
-    padding-bottom: 38px;
+    padding-top: 44px;
+    padding-bottom: 32px;
   }
     
   .section > .paragraph {
@@ -885,7 +885,7 @@ margin: 0 180px;
   .container {
     height: 100vh;
     /* width: 87.5%; */
-    padding: 6vh 20px 15vh;
+    padding: 6.5vh 20px 14vh;
 
   }
 
@@ -980,7 +980,7 @@ margin: 0 180px;
   }
   
   .background-light {
-    padding-top: 86px; 
+    padding-top: 96px; 
   }
 
   
@@ -999,11 +999,15 @@ margin: 0 180px;
   .title {
     font-size: 23px;
     letter-spacing: 1px;
+    padding-bottom: 25px;
+    
   }
   
   .paragraph {
     font-size: 15px;
     letter-spacing: 1px;
+    line-height: 1;
+    
   }
   
   .block_players::after{

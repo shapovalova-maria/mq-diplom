@@ -689,13 +689,13 @@ margin: 0 180px;
   }
 
   .container {
-    padding-left: 53px;
-    padding-right: 53px;
+    padding: 38px 53px 90px;
   }
 
   .header_logo,
   .footer_logo {
     width: 205px; 
+    margin-bottom: 0;
   }
 
   .container_title
@@ -706,14 +706,18 @@ margin: 0 180px;
     
   .container_title {
     margin: 0;
+    padding-left: 30px;
   }
   
   .top_text:nth-child(2) {
     padding-left: 105px;
+    padding-top: 11px;
+    line-height: 1.2;
   }
   
   .buttons {
     width: 652px;
+    margin-top: 130px;
   }
  
   .button_store {
@@ -725,7 +729,7 @@ margin: 0 180px;
    .block_athlets::after{
     content: url(../images/footballer_497.png);
 
-    top: 115px; 
+    top: 110px; 
     left: -20%;
   }
    
@@ -738,10 +742,7 @@ margin: 0 180px;
   }
   
   .content-section {
-    padding-left: 38%;
-    padding-right: 35px;
-    padding-top: 42px;
-    padding-bottom: 32px;
+    padding: 37px 35px 18px 38%;
   }
 
   .title {
